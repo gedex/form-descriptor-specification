@@ -2,7 +2,7 @@ Form Descriptor Specification
 =============================
 
 Form Descriptor is a proposed specification defining the structure of a
-form using JSON format. The format can be cnosumed by application to
+form using JSON format. The format can be consumed by application to
 render a form in a human-friendly visualization such as html's forms or
 form in a native-UI mobile application.
 
