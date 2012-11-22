@@ -137,20 +137,20 @@ illustrative purposes only.
 Each `form` MUST provide all the following fields:
 
 <dl>
-    <dt>`layout`</dt>
+    <dt>layout</dt>
     <dd>
-    A `layout`'s value is an `array` of pages. Each `page`
-    consists of an `array` of `row`. A `row` consists of an `array` of
-    `column`. A `column` consists of either an `array` of `field`'s key,
-    in JSON [RFC4627] String, or an `array` of `row`. Thus, a `column`
+    A layout's value is an array of pages. Each page
+    consists of an array of row. A row consists of an array of
+    column. A column consists of either an array of field's key,
+    in JSON [RFC4627] String, or an array of row. Thus, a column
     MAY forms nested rows/columns structure. A nested rows/columns
-    structure MUST ends in a `column` containing an `array` of `field`'s
+    structure MUST ends in a column containing an array of field's
     key.
     </dd>
-    <dt>`fields`</dt>
+    <dt>fields</dt>
     <dd>
-    A `fields`'s value is an `object` consists of field's key / `field`
-    pairs. A `field` is an `object`
+    A fields' value is an object consists of field's key / field
+    pairs. A field is an object
     </dd>
 </dl>
 
