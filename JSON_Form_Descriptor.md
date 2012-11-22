@@ -286,3 +286,6 @@ Form layout schema:
     [ // page n ]
 ]
 ~~~
+
+[RFC2119]: http://www.ietf.org/rfc/rfc2119.txt
+[RFC4627]: http://www.ietf.org/rfc/rfc4627.txt
