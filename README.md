@@ -6,6 +6,38 @@ form using various format. The format can be consumed by application to
 render a form in a human-friendly visualization such as html's forms or
 form in a native-UI mobile application.
 
+## Overview
+
+Let's say you build a drag-and-drop form builder. Your app provides a set
+of fields in toolbox to be dragged into workspace in which user get
+preview of rendered form. The app expands by allowing the form exported
+into desktop and mobile forms. This form descriptor can be used as a
+exported files that will be imported in desktop and mobile apps.
+
+In any apps, the layout form is viewed as a pages consist of rows and
+columns. The specification states that the most nested columns MUST be
+an input field.
+
+~~~
+    -------------------------------------
+    | # Form                            | layout: [
+    | # 1st page                        |   [ // 1st page
+    | --------------------------------- |
+    | | # 1st row                     | |     [ // 1st row
+    | | ----------------------------- | |
+    | | | # 1st col    |  # 2nd col | | |       [ "field_text_1" ], // 1st col
+    | | ----------------------------- | |       [ "textarea_1" ] // 2nd col
+    | | | field_text_1 | textarea_1 | | |
+    | | ----------------------------- | |     ]
+    | --------------------------------- |   ]
+    ------------------------------------- ]
+~~~
+
+The "field_text_1" and "textarea_1" fields must be defined in `fields`
+as the specification describes. The defined properties include name of
+the field, validation rules, default value, or your own specific property
+that's understandable by your own app.
+
 ## Specifications
 
 * [JSON Form Descriptor](#)
