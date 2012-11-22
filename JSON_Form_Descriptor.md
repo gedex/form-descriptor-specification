@@ -134,7 +134,7 @@ illustrative purposes only.
 
 ### Required Properties
 
-Each `form` MUST provide all the following fields:
+Each `form` MUST provide all the following properties:
 
 <dl>
     <dt>layout</dt>
@@ -154,7 +154,7 @@ Each `form` MUST provide all the following fields:
     </dd>
 </dl>
 
-### Optional Fields
+### Optional Properties
 
 <dl>
     <dt>name</dt>
