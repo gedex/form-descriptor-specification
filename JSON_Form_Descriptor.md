@@ -24,7 +24,7 @@ it in a rich human-friendly format. This may include constructing
 visual representation of the `form`.
 
 The basic properties that comprise the description of a `form` are
-defined in the following sections. 
+defined in the following sections.
 
 
 ## 2. Notational Conventions
@@ -131,6 +131,42 @@ illustrative purposes only.
 
 
 ### 3.2 Form Descriptor Serialization
+
+### Required Properties
+
+Each `form` MUST provide all the following fields:
+
+<dl>
+    <dt>`layout`</dt>
+    <dd>
+    A `layout`'s value is an `array` of pages. Each `page`
+    consists of an `array` of `row`. A `row` consists of an `array` of
+    `column`. A `column` consists of either an `array` of `field`'s key,
+    in JSON [RFC4627] String, or an `array` of `row`. Thus, a `column`
+    MAY forms nested rows/columns structure. A nested rows/columns
+    structure MUST ends in a `column` containing an `array` of `field`'s
+    key.
+    </dd>
+    <dt>`fields`</dt>
+    <dd>
+    A `fields`'s value is an `object` consists of field's key / `field`
+    pairs. A `field` is an `object`
+    </dd>
+</dl>
+
+### Optional Fields
+
+<dl>
+    <dt>`name`</dt>
+    <dd>
+    Name of the form.
+    </dd>
+    <dt>`description`</dt>
+    <dd>
+    Description of the form.
+    </dd>
+</dl>
+
 
 ### 3.2 Layout Serialization
 
