@@ -157,11 +157,11 @@ Each `form` MUST provide all the following fields:
 ### Optional Fields
 
 <dl>
-    <dt>`name`</dt>
+    <dt>name</dt>
     <dd>
     Name of the form.
     </dd>
-    <dt>`description`</dt>
+    <dt>description</dt>
     <dd>
     Description of the form.
     </dd>
