@@ -40,9 +40,9 @@ that's understandable by your own app.
 
 ## Specifications
 
-* [JSON Form Descriptor](#)
-* [YAML Form Descriptor](#)
-* [XML Form Descriptor](#)
+* [JSON Form Descriptor][1]
+* [XML Form Descriptor][2]
+* [YAML Form Descriptor][3]
 
 ## In this repo:
 
@@ -54,3 +54,7 @@ that's understandable by your own app.
   demonstrating Form Descriptor specification.
 * schema
   * README.md &mdash; Information about schema
+
+[1]: https://github.com/gedex/form-descriptor-specification/blob/master/JSON_Form_Descriptor.md
+[2]: https://github.com/gedex/form-descriptor-specification/blob/master/XML_Form_Descriptor.md
+[3]: https://github.com/gedex/form-descriptor-specification/blob/master/YAML_Form_Descriptor.md
